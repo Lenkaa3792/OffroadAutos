@@ -4,11 +4,12 @@
 
 nav{
   display: flex;
-  justify-content: space-around;
+  justify-content:space-evenly;
   align-items: center;
   min-height: 10vh;
   background-color:grey;
   color:skyblue ;
+
 
 }
 .navlink{
