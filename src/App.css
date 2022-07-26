@@ -2,20 +2,64 @@
   text-align: center;
 }
 
-nav{
+nav {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
   min-height: 10vh;
-  background-color:grey;
-  color:skyblue ;
-
-
+  background-color: grey;
+  color: skyblue;
 }
-.navlink{
-   width: 40%;
+#about image{
+  height: 50px;
+}
+.navlink {
+  width: 40%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
 }
+.grid-container1{
+  display: flex;
+  justify-content: space-around;
+
+}
+#track1{
+  
+ font-size: 0.7em;
+ font-weight: bold;
+ color: gray;
+ background-color:sandybrown;
+ padding: 10px;
+ margin: 20px;
+ height: 180px; ;
+ width: 60%;
+  
+}
+#track2{
+  font-family: Verdana, Geneva, sans-serif;
+ font-size: 0.7em;
+ font-weight: bold;
+ color:black;
+ background-color:beige;
+ padding: 10px;
+ margin: 20px;
+ height: auto;
+ width: 60%;
+  
+}
+#jeep{
+  display: flex;
+  
+}
+/* .grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin-right: 0px;
+}
+
+.grid-container1 img{
+  margin-left: -20px;
+}  */

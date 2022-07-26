@@ -1,13 +1,24 @@
 import React from "react";
+import{Link, NavLink} from "react-router-dom";
 
 export function Nav ()
 {
+  const navStyle = {
+    color:'beige'
+  }
     return (
       <nav>
         <ul className="navlink">
-          <li>About</li>
-          <li>Tracks</li>
-          <li>Vehicles</li>
+         
+          <NavLink style={navStyle} to="/about">
+            About
+          </NavLink>
+          <NavLink style={navStyle} to="/tracks">
+            Tracks
+          </NavLink>
+          <NavLink style={navStyle} to="/vehicles">
+            Vehicles
+          </NavLink>
         </ul>
       </nav>
     );

@@ -1,0 +1,14 @@
+#about{
+    background-color:beige;
+    padding:20px;
+    margin-top:20px;
+    display: flex;
+}
+#about img{
+    height:500px;
+}
+#about h1{
+    margin-left:20px;
+}
+
+
