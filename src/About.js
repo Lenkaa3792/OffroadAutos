@@ -8,8 +8,11 @@ export default function About ()
   return (
     <div>
       <h2>What is Offroading</h2>
+
+      
       <div id="about">
         <img src={ Image4 } alt='' />
+        
 
         <p>
           Off-roading is the activity of driving or riding in a vehicle on

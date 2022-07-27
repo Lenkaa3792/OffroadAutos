@@ -3,12 +3,21 @@
     padding:20px;
     margin-top:20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #about img{
-    height:500px;
+    height:480px;
+    
+    width:40%;
 }
 #about h1{
     margin-left:20px;
+}
+#about p{
+    margin-left:20px;
+    width: 30%;
+text-align: center;
 }
 
 

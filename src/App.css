@@ -4,13 +4,13 @@
 
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   min-height: 10vh;
   background-color: grey;
   color: skyblue;
 }
-#about image{
+#about image {
   height: 50px;
 }
 .navlink {
@@ -20,46 +20,46 @@ nav {
   align-items: center;
   list-style: none;
 }
-.grid-container1{
+.wild {
+  width: 70%;
+}
+.column {
+  position: relative;
   display: flex;
-  justify-content: space-around;
+}
+.column div{
+  width: 500px;
+}
+.column #jengwa img{
+  height: 220px;
+}
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-#track1{
-  
- font-size: 0.7em;
- font-weight: bold;
- color: gray;
- background-color:sandybrown;
- padding: 10px;
- margin: 20px;
- height: 180px; ;
- width: 60%;
-  
+.column image {
+  width: 60px;
 }
-#track2{
-  font-family: Verdana, Geneva, sans-serif;
- font-size: 0.7em;
- font-weight: bold;
- color:black;
- background-color:beige;
- padding: 10px;
- margin: 20px;
- height: auto;
- width: 60%;
-  
+.fixIt{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+#rover{
+  width: 150px;
+  height: 100px;
 }
 #jeep{
-  display: flex;
-  
+  width: 150px;
+  height: 100px;
 }
-/* .grid-container1 {
-  display: grid;
-  grid-template-columns: auto auto;
-  align-items: center;
-  margin-right: 0px;
+#ford{
+  width: 150px;
+  height: 100px;
 }
-
-.grid-container1 img{
-  margin-left: -20px;
-}  */
+/* .vehiclesZetu{
+  width: 20px;
+} */
